@@ -10,16 +10,9 @@ import {Hero} from '../hero';
 import {HEROES} from '../mock-heroes';
 
 @Component({
-  standalone: true,
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css'],
-  imports: [
-    FormsModule,
-    NgIf,
-    NgFor,
-    UpperCasePipe,
-  ],
+  styleUrls: ['./heroes.component.css']
 })
 
 export class HeroesComponent {
